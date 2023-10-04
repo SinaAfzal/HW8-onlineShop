@@ -142,10 +142,10 @@ public class MainMenu {
                 tempCount = cartServiceImpl.countOfItemInCart(itemID);
 
                 try {
-                    Electronics electronics = Electronics.valueOf(cartServiceImpl.nameOfItemInCart(itemID));
+                    Electronics electronics = Electronics.valueOf(cartServiceImpl.nameOfItemInCart(itemID).toUpperCase());
                     electronics.setCountsAvailable(electronics.getCountsAvailable() + tempCount);
                 } catch (IllegalArgumentException e) {
-                    Shoes shoes = Shoes.valueOf(cartServiceImpl.nameOfItemInCart(itemID));
+                    Shoes shoes = Shoes.valueOf(cartServiceImpl.nameOfItemInCart(itemID).toUpperCase());
                     shoes.setCountsAvailable(shoes.getCountsAvailable() + tempCount);
                 }
                 cartServiceImpl.delete(itemID);

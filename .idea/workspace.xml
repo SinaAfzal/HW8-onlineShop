@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02dd3df7-c69b-4c4b-9ace-f1806e81c994" name="Changes" comment="create BaseEntity class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/repository/BaseRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/service/BaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/connection/JdbcConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/enums/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/enums/Shoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/CartRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/sql/CartTable.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/sql/UsersTable.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/ZereshkThrower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/menu/HomePageMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/menu/MainMenu.java" afterDir="false" />
+    <list default="true" id="02dd3df7-c69b-4c4b-9ace-f1806e81c994" name="Changes" comment="create and develop HW8Application class (Main class)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/HW8Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/HW8Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/menu/MainMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1696323470915</updated>
       <workItem from="1696323472640" duration="23585000" />
-      <workItem from="1696396970866" duration="26780000" />
+      <workItem from="1696396970866" duration="27833000" />
+      <workItem from="1696441538343" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup of the project">
       <created>1696323892433</created>
@@ -115,7 +91,175 @@
       <option name="project" value="LOCAL" />
       <updated>1696324372123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implement methods in BaseEntity class">
+      <created>1696429103396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429103396</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create sql tables">
+      <created>1696429123192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429123192</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create and develop BaseRepository interface">
+      <created>1696429163949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429163949</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create and develop BaseRepositoryImpl class">
+      <created>1696429185669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429185669</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create and develop JdbcConnection class">
+      <created>1696429205598</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429205598</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create and develop BaseService interface">
+      <created>1696429239515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429239515</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create and develop BaseServiceImpl class">
+      <created>1696429250138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429250138</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create and develop UserRepository interface">
+      <created>1696429272620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429272620</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create and develop UserRepositoryImpl class">
+      <created>1696429286006</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429286006</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create and develop CartRepository interface">
+      <created>1696429303389</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429303389</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create and develop CartRepositoryImpl class">
+      <created>1696429314667</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429314667</updated>
+    </task>
+    <task id="LOCAL-00014" summary="create and develop User class">
+      <created>1696429344175</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429344175</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create and develop Cart class">
+      <created>1696429352666</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429352666</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create and develop UserService interface">
+      <created>1696429372916</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429372916</updated>
+    </task>
+    <task id="LOCAL-00017" summary="create and develop CartService interface">
+      <created>1696429382572</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429382572</updated>
+    </task>
+    <task id="LOCAL-00018" summary="create and develop UserServiceImpl class">
+      <created>1696429396862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429396862</updated>
+    </task>
+    <task id="LOCAL-00019" summary="create and develop CartServiceImpl class">
+      <created>1696429413876</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429413876</updated>
+    </task>
+    <task id="LOCAL-00020" summary="create and develop Enums (Electronics and Shoes)">
+      <created>1696429446080</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429446080</updated>
+    </task>
+    <task id="LOCAL-00021" summary="create and develop HomePageMenu class">
+      <created>1696429467471</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429467471</updated>
+    </task>
+    <task id="LOCAL-00022" summary="create and develop MainMenu class">
+      <created>1696429478922</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429478922</updated>
+    </task>
+    <task id="LOCAL-00023" summary="create and develop Validation class">
+      <created>1696429493706</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429493706</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create and develop ZereshkThrower class">
+      <created>1696429503044</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429503044</updated>
+    </task>
+    <task id="LOCAL-00025" summary="create and develop ApplicationContext class">
+      <created>1696429525178</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429525178</updated>
+    </task>
+    <task id="LOCAL-00026" summary="create and develop HW8Application class (Main class)">
+      <created>1696429547271</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429547271</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,8 +277,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial setup of the project" />
     <MESSAGE value="create BaseEntity class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create BaseEntity class" />
+    <MESSAGE value="implement methods in BaseEntity class" />
+    <MESSAGE value="create sql tables" />
+    <MESSAGE value="create and develop BaseRepository interface" />
+    <MESSAGE value="create and develop BaseRepositoryImpl class" />
+    <MESSAGE value="create and develop JdbcConnection class" />
+    <MESSAGE value="create and develop BaseService interface" />
+    <MESSAGE value="create and develop BaseServiceImpl class" />
+    <MESSAGE value="create and develop UserRepository interface" />
+    <MESSAGE value="create and develop UserRepositoryImpl class" />
+    <MESSAGE value="create and develop CartRepository interface" />
+    <MESSAGE value="create and develop CartRepositoryImpl class" />
+    <MESSAGE value="create and develop User class" />
+    <MESSAGE value="create and develop Cart class" />
+    <MESSAGE value="create and develop UserService interface" />
+    <MESSAGE value="create and develop CartService interface" />
+    <MESSAGE value="create and develop UserServiceImpl class" />
+    <MESSAGE value="create and develop CartServiceImpl class" />
+    <MESSAGE value="create and develop Enums (Electronics and Shoes)" />
+    <MESSAGE value="create and develop HomePageMenu class" />
+    <MESSAGE value="create and develop MainMenu class" />
+    <MESSAGE value="create and develop Validation class" />
+    <MESSAGE value="create and develop ZereshkThrower class" />
+    <MESSAGE value="create and develop ApplicationContext class" />
+    <MESSAGE value="create and develop HW8Application class (Main class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="create and develop HW8Application class (Main class)" />
   </component>
 </project>
