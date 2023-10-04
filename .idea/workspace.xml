@@ -4,9 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02dd3df7-c69b-4c4b-9ace-f1806e81c994" name="Changes" comment="initial setup of the project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/entity/BaseEntity.java" afterDir="false" />
+    <list default="true" id="02dd3df7-c69b-4c4b-9ace-f1806e81c994" name="Changes" comment="create BaseEntity class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/repository/BaseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/service/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/connection/JdbcConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/enums/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/entity/enums/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/CartRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/sql/CartTable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/sql/UsersTable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/ZereshkThrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/menu/HomePageMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/utility/menu/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/HW8Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/HW8Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/base/entity/BaseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,19 +59,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;b9dc45cc-6721-4837-b930-7d6c3f5447b2/database/\&quot;postgres\&quot;/schema/\&quot;public\&quot;&quot;,
+      &quot;b9dc45cc-6721-4837-b930-7d6c3f5447b2&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="CartTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/sql/CartTable.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="b9dc45cc-6721-4837-b930-7d6c3f5447b2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UsersTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/ir/maktabsharif101/hw8/sql/UsersTable.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="b9dc45cc-6721-4837-b930-7d6c3f5447b2" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696323470915</updated>
-      <workItem from="1696323472640" duration="768000" />
+      <workItem from="1696323472640" duration="23585000" />
+      <workItem from="1696396970866" duration="26780000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup of the project">
       <created>1696323892433</created>
@@ -62,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696323892433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create BaseEntity class">
+      <created>1696324372123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696324372123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial setup of the project" />
+    <MESSAGE value="create BaseEntity class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create BaseEntity class" />
   </component>
 </project>
